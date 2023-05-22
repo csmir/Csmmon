@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="NetCord" Version="1.0.0-alpha.162" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\Csmmon\Csmmon.csproj" />
+	<ProjectReference Include="..\Csmmon.Data\Csmmon.Data.csproj" />
+	<ProjectReference Include="..\Csmmon.Discord\Csmmon.Discord.csproj" />
+  </ItemGroup>
+
+</Project>
